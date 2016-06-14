@@ -20,13 +20,11 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-}
-
--(void)viewDidAppear:(BOOL)animated
-{
+    
     //Set all values to View
     [self setAllDetailValues];
 }
+
 -(void)setAllDetailValues
 {
     self.posterImage.userInteractionEnabled = YES;
